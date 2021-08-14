@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  CommentsTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CommentsTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 02 22:11:57 CST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16282 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CommentsTests.testDeleteComment()'><b>testDeleteComment</b><br>Test class: CommentsTests<br>Test method: Test that deletes a comment</td>
+<td></td>
+<td>0</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testUpdateCommentById()'><b>testUpdateCommentById</b><br>Test class: CommentsTests<br>Test method: Test that updates a comment by Id</td>
+<td></td>
+<td>1</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testGetACommentbyId()'><b>testGetACommentbyId</b><br>Test class: CommentsTests<br>Test method: Test to retrieve a comment by Id</td>
+<td></td>
+<td>1</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testUpdateInvalidComment()'><b>testUpdateInvalidComment</b><br>Test class: CommentsTests<br>Test method: Test that udpates an invalid comment</td>
+<td></td>
+<td>1</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testDeleteInvalidComment()'><b>testDeleteInvalidComment</b><br>Test class: CommentsTests<br>Test method: Test that deletes an invalid comment</td>
+<td></td>
+<td>0</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testGetAllComments()'><b>testGetAllComments</b><br>Test class: CommentsTests<br>Test method: Test that retrieve all comments in a post</td>
+<td></td>
+<td>1</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testGetACommentUsingInvalidId()'><b>testGetACommentUsingInvalidId</b><br>Test class: CommentsTests<br>Test method: Test to retrieve a comment using an invalid id</td>
+<td></td>
+<td>0</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testGetAllCommentsUsingInvalidPost()'><b>testGetAllCommentsUsingInvalidPost</b><br>Test class: CommentsTests<br>Test method: Test to get all comments using invalid user</td>
+<td></td>
+<td>0</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testCreateComment()'><b>testCreateComment</b><br>Test class: CommentsTests<br>Test method: Test that creates a comment in a post</td>
+<td></td>
+<td>0</td>
+<td>CommentsTests@4e7dc304</td></tr>
+<tr>
+<td title='CommentsTests.testCreateCommentOnInvalidPost()'><b>testCreateCommentOnInvalidPost</b><br>Test class: CommentsTests<br>Test method: Test that creates a comment in an invalid post</td>
+<td></td>
+<td>0</td>
+<td>CommentsTests@4e7dc304</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+ArticlesTests.class
+Base.class
+PostsTests.class
+CommentsTests.class
+AuthenticationTests.class
+MiscellaneousTests.class

@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HerokuExecution" thread-count="1" parallel="tests">
+
+    <parameter name="host" value="http://api-coffee-testing.herokuapp.com"></parameter>
+
+<!--    <test name="AuthenticationTests">-->
+<!--        <classes>-->
+<!--            <class  name="AuthenticationTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="ArticlesTests">-->
+<!--        <classes>-->
+<!--            <class  name="ArticlesTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="PostsTests">-->
+<!--        <classes>-->
+<!--            <class  name="PostsTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="CommentsTests">
+        <classes>
+            <class  name="CommentsTests"></class>
+        </classes>
+    </test>
+
+<!--    <test name="MiscTests">-->
+<!--        <classes>-->
+<!--            <class name="MiscellaneousTests"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

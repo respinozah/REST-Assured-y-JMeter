@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.36" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\gitu\Proyecto 1\target\test-classes;C:\gitu\Proyecto 1\target\classes;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\espiraul.CORPDOM\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\espiraul.CORPDOM\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\espiraul.CORPDOM\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value="America/Regina"/>
+    <property name="user.country.format" value="CR"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\java\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ESPIRA~1.COR\AppData\Local\Temp\surefire9021632548482000389\surefirebooter4504085526896073540.jar C:\Users\espiraul.CORPDOM\AppData\Local\Temp\surefire9021632548482000389 2021-08-02T22-11-35_470-jvmRun1 surefire2483902725763952892tmp surefire_05698192337941713825tmp"/>
+    <property name="surefire.test.class.path" value="C:\gitu\Proyecto 1\target\test-classes;C:\gitu\Proyecto 1\target\classes;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\espiraul.CORPDOM\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\espiraul.CORPDOM\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\espiraul.CORPDOM\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\espiraul.CORPDOM\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\espiraul.CORPDOM\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\espiraul.CORPDOM"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\java\jre"/>
+    <property name="basedir" value="C:\gitu\Proyecto 1"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.46.0.19-CA-win64"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ESPIRA~1.COR\AppData\Local\Temp\surefire9021632548482000389\surefirebooter4504085526896073540.jar"/>
+    <property name="sun.boot.class.path" value="C:\java\jre\lib\resources.jar;C:\java\jre\lib\rt.jar;C:\java\jre\lib\sunrsasign.jar;C:\java\jre\lib\jsse.jar;C:\java\jre\lib\jce.jar;C:\java\jre\lib\charsets.jar;C:\java\jre\lib\jfr.jar;C:\java\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_252-b14"/>
+    <property name="user.name" value="espiraul"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\java\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\espiraul.CORPDOM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ESPIRA~1.COR\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="user.dir" value="C:\gitu\Proyecto 1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\wbem;C:\WINDOWS\system32\windowspowershell\v1.0\;c:\program files\perforce;%java_home%\bin;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\intel\intel(r) management engine components\ipt;c:\program files\putty\;c:\windows\system32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files (x86)\Calibre2\;C:\Program Files\Java\jdk-15.0.1\bin;C:\maven\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\espiraul.CORPDOM\AppData\Local\Microsoft\WindowsApps;C:\maven\bin;C:\java\bin;C:\gradle-2.6\bin;C:\Users\espiraul.CORPDOM\AppData\Local\GitHubDesktop\bin;C:\Users\espiraul.CORPDOM\AppData\Roaming\npm;C:\Users\espiraul.CORPDOM\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.252-b14"/>
+    <property name="java.ext.dirs" value="C:\java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCreatePost" classname="PostsTests" time="0.345"/>
+  <testcase name="testCreatePostInvalidTitle" classname="PostsTests" time="0.208"/>
+  <testcase name="testDeleteInvalidPost" classname="PostsTests" time="0.27"/>
+  <testcase name="testDeletePost" classname="PostsTests" time="0.25"/>
+  <testcase name="testGetAPost" classname="PostsTests" time="0.289"/>
+  <testcase name="testGetAllPosts" classname="PostsTests" time="0.508"/>
+  <testcase name="testGetAllPostsUsingInvalidLogin" classname="PostsTests" time="0.218"/>
+  <testcase name="testGetAnInvalidPost" classname="PostsTests" time="0.268"/>
+  <testcase name="testUpdateInvalidPost" classname="PostsTests" time="0.236"/>
+  <testcase name="testUpdatePost" classname="PostsTests" time="0.267"/>
+  <testcase name="testCreateComment" classname="CommentsTests" time="0.232"/>
+  <testcase name="testCreateCommentOnInvalidPost" classname="CommentsTests" time="0.252"/>
+  <testcase name="testDeleteComment" classname="CommentsTests" time="0.763"/>
+  <testcase name="testDeleteInvalidComment" classname="CommentsTests" time="0.217"/>
+  <testcase name="testGetACommentUsingInvalidId" classname="CommentsTests" time="0.284"/>
+  <testcase name="testGetACommentbyId" classname="CommentsTests" time="1.216"/>
+  <testcase name="testGetAllComments" classname="CommentsTests" time="1.183"/>
+  <testcase name="testGetAllCommentsUsingInvalidPost" classname="CommentsTests" time="0.244"/>
+  <testcase name="testUpdateCommentById" classname="CommentsTests" time="1.214"/>
+  <testcase name="testUpdateInvalidComment" classname="CommentsTests" time="1.15"/>
+</testsuite>
