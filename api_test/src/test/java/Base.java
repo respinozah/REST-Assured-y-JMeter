@@ -38,7 +38,7 @@ public class Base {
     }
 
     //Comments
-    @BeforeMethod(groups = "useComment")
+    @BeforeMethod(groups = "tagToMakeItWork")
     public void createComment(){
         postId = RequestHelper.createRandomPostAndGetId();
         commentId = RequestHelper.createRandomCommentAndGetId(postId);

@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="HerokuExecution" duration-ms="32506" started-at="2021-08-02T22:11:41 CST" finished-at="2021-08-02T22:12:13 CST">
+  <suite name="HerokuExecution" duration-ms="50376" started-at="2021-08-20T08:26:31 CST" finished-at="2021-08-20T08:27:21 CST">
     <groups>
       <group name="useComment">
         <method signature="CommentsTests.testGetAllComments()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetAllComments" class="CommentsTests"/>
@@ -18,213 +18,293 @@
         <method signature="CommentsTests.testGetACommentUsingInvalidId()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetACommentUsingInvalidId" class="CommentsTests"/>
       </group> <!-- usePost -->
     </groups>
-    <test name="PostsTests" duration-ms="16156" started-at="2021-08-02T22:11:41 CST" finished-at="2021-08-02T22:11:57 CST">
+    <test name="PostsTests" duration-ms="25175" started-at="2021-08-20T08:26:31 CST" finished-at="2021-08-20T08:26:56 CST">
       <class name="PostsTests">
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="3355" started-at="2021-08-02T22:11:41 CST" finished-at="2021-08-02T22:11:44 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="3796" started-at="2021-08-20T08:26:31 CST" finished-at="2021-08-20T08:26:35 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="268" started-at="2021-08-02T22:11:44 CST" finished-at="2021-08-02T22:11:44 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="517" started-at="2021-08-20T08:26:35 CST" finished-at="2021-08-20T08:26:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="210" started-at="2021-08-20T08:26:35 CST" finished-at="2021-08-20T08:26:35 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testCreatePost()[pri:0, instance:PostsTests@1f36e637]" name="testCreatePost" duration-ms="343" started-at="2021-08-02T22:11:44 CST" description="Test that creates a post." finished-at="2021-08-02T22:11:45 CST">
+        <test-method status="PASS" signature="testCreatePost()[pri:0, instance:PostsTests@1f36e637]" name="testCreatePost" duration-ms="362" started-at="2021-08-20T08:26:35 CST" description="Test that creates a post." finished-at="2021-08-20T08:26:36 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="265" started-at="2021-08-02T22:11:45 CST" finished-at="2021-08-02T22:11:45 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="235" started-at="2021-08-20T08:26:36 CST" finished-at="2021-08-20T08:26:36 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="226" started-at="2021-08-02T22:11:45 CST" finished-at="2021-08-02T22:11:45 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="414" started-at="2021-08-20T08:26:36 CST" finished-at="2021-08-20T08:26:36 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="218" started-at="2021-08-20T08:26:36 CST" finished-at="2021-08-20T08:26:36 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="220" started-at="2021-08-02T22:11:45 CST" finished-at="2021-08-02T22:11:45 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="233" started-at="2021-08-20T08:26:36 CST" finished-at="2021-08-20T08:26:37 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="237" started-at="2021-08-02T22:11:45 CST" finished-at="2021-08-02T22:11:46 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="466" started-at="2021-08-20T08:26:37 CST" finished-at="2021-08-20T08:26:37 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="222" started-at="2021-08-20T08:26:37 CST" finished-at="2021-08-20T08:26:37 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testCreatePostInvalidTitle()[pri:0, instance:PostsTests@1f36e637]" name="testCreatePostInvalidTitle" duration-ms="209" started-at="2021-08-02T22:11:46 CST" description="Test that validates a post missing title creation." finished-at="2021-08-02T22:11:46 CST">
+        <test-method status="PASS" signature="testCreatePostInvalidTitle()[pri:0, instance:PostsTests@1f36e637]" name="testCreatePostInvalidTitle" duration-ms="203" started-at="2021-08-20T08:26:37 CST" description="Test that validates a post missing title creation." finished-at="2021-08-20T08:26:38 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreatePostInvalidTitle -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="292" started-at="2021-08-02T22:11:46 CST" finished-at="2021-08-02T22:11:46 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="195" started-at="2021-08-20T08:26:38 CST" finished-at="2021-08-20T08:26:38 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="279" started-at="2021-08-02T22:11:46 CST" finished-at="2021-08-02T22:11:46 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="434" started-at="2021-08-20T08:26:38 CST" finished-at="2021-08-20T08:26:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="221" started-at="2021-08-20T08:26:38 CST" finished-at="2021-08-20T08:26:38 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="229" started-at="2021-08-02T22:11:46 CST" finished-at="2021-08-02T22:11:47 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="252" started-at="2021-08-20T08:26:38 CST" finished-at="2021-08-20T08:26:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="232" started-at="2021-08-02T22:11:47 CST" finished-at="2021-08-02T22:11:47 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="484" started-at="2021-08-20T08:26:39 CST" finished-at="2021-08-20T08:26:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="223" started-at="2021-08-20T08:26:39 CST" finished-at="2021-08-20T08:26:39 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testDeleteInvalidPost()[pri:0, instance:PostsTests@1f36e637]" name="testDeleteInvalidPost" duration-ms="270" started-at="2021-08-02T22:11:47 CST" description="Test that deletes an invalid post." finished-at="2021-08-02T22:11:47 CST">
+        <test-method status="PASS" signature="testDeleteInvalidPost()[pri:0, instance:PostsTests@1f36e637]" name="testDeleteInvalidPost" duration-ms="218" started-at="2021-08-20T08:26:39 CST" description="Test that deletes an invalid post." finished-at="2021-08-20T08:26:40 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteInvalidPost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="228" started-at="2021-08-02T22:11:47 CST" finished-at="2021-08-02T22:11:47 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="211" started-at="2021-08-20T08:26:40 CST" finished-at="2021-08-20T08:26:40 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="260" started-at="2021-08-02T22:11:47 CST" finished-at="2021-08-02T22:11:48 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="404" started-at="2021-08-20T08:26:40 CST" finished-at="2021-08-20T08:26:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="247" started-at="2021-08-20T08:26:40 CST" finished-at="2021-08-20T08:26:40 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="277" started-at="2021-08-02T22:11:48 CST" finished-at="2021-08-02T22:11:48 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="263" started-at="2021-08-20T08:26:40 CST" finished-at="2021-08-20T08:26:41 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="275" started-at="2021-08-02T22:11:48 CST" finished-at="2021-08-02T22:11:48 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="491" started-at="2021-08-20T08:26:41 CST" finished-at="2021-08-20T08:26:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="238" started-at="2021-08-20T08:26:41 CST" finished-at="2021-08-20T08:26:41 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testDeletePost()[pri:0, instance:PostsTests@1f36e637]" name="testDeletePost" duration-ms="249" started-at="2021-08-02T22:11:48 CST" description="Test that deletes a post by id." finished-at="2021-08-02T22:11:48 CST">
+        <test-method status="PASS" signature="testDeletePost()[pri:0, instance:PostsTests@1f36e637]" name="testDeletePost" duration-ms="213" started-at="2021-08-20T08:26:41 CST" description="Test that deletes a post by id." finished-at="2021-08-20T08:26:42 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeletePost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="291" started-at="2021-08-02T22:11:48 CST" finished-at="2021-08-02T22:11:49 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="204" started-at="2021-08-20T08:26:42 CST" finished-at="2021-08-20T08:26:42 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="225" started-at="2021-08-02T22:11:49 CST" finished-at="2021-08-02T22:11:49 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="439" started-at="2021-08-20T08:26:42 CST" finished-at="2021-08-20T08:26:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="200" started-at="2021-08-20T08:26:42 CST" finished-at="2021-08-20T08:26:43 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="252" started-at="2021-08-02T22:11:49 CST" finished-at="2021-08-02T22:11:49 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="225" started-at="2021-08-20T08:26:43 CST" finished-at="2021-08-20T08:26:43 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="225" started-at="2021-08-02T22:11:49 CST" finished-at="2021-08-02T22:11:49 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="465" started-at="2021-08-20T08:26:43 CST" finished-at="2021-08-20T08:26:43 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="221" started-at="2021-08-20T08:26:43 CST" finished-at="2021-08-20T08:26:43 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetAPost()[pri:0, instance:PostsTests@1f36e637]" name="testGetAPost" duration-ms="290" started-at="2021-08-02T22:11:49 CST" description="Test to retrieve a specific post." finished-at="2021-08-02T22:11:50 CST">
+        <test-method status="PASS" signature="testGetAPost()[pri:0, instance:PostsTests@1f36e637]" name="testGetAPost" duration-ms="235" started-at="2021-08-20T08:26:43 CST" description="Test to retrieve a specific post." finished-at="2021-08-20T08:26:44 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAPost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="210" started-at="2021-08-02T22:11:50 CST" finished-at="2021-08-02T22:11:50 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="214" started-at="2021-08-20T08:26:44 CST" finished-at="2021-08-20T08:26:44 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="239" started-at="2021-08-02T22:11:50 CST" finished-at="2021-08-02T22:11:50 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="566" started-at="2021-08-20T08:26:44 CST" finished-at="2021-08-20T08:26:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="222" started-at="2021-08-20T08:26:44 CST" finished-at="2021-08-20T08:26:45 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="241" started-at="2021-08-02T22:11:50 CST" finished-at="2021-08-02T22:11:50 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="237" started-at="2021-08-20T08:26:45 CST" finished-at="2021-08-20T08:26:45 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="294" started-at="2021-08-02T22:11:50 CST" finished-at="2021-08-02T22:11:51 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="502" started-at="2021-08-20T08:26:45 CST" finished-at="2021-08-20T08:26:45 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="268" started-at="2021-08-20T08:26:45 CST" finished-at="2021-08-20T08:26:46 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetAllPosts()[pri:0, instance:PostsTests@1f36e637]" name="testGetAllPosts" duration-ms="508" started-at="2021-08-02T22:11:51 CST" description="Test to get all posts." finished-at="2021-08-02T22:11:51 CST">
+        <test-method status="PASS" signature="testGetAllPosts()[pri:0, instance:PostsTests@1f36e637]" name="testGetAllPosts" duration-ms="706" started-at="2021-08-20T08:26:46 CST" description="Test to get all posts." finished-at="2021-08-20T08:26:46 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllPosts -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="217" started-at="2021-08-02T22:11:51 CST" finished-at="2021-08-02T22:11:51 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="320" started-at="2021-08-20T08:26:46 CST" finished-at="2021-08-20T08:26:47 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="241" started-at="2021-08-02T22:11:51 CST" finished-at="2021-08-02T22:11:52 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="492" started-at="2021-08-20T08:26:47 CST" finished-at="2021-08-20T08:26:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="221" started-at="2021-08-20T08:26:47 CST" finished-at="2021-08-20T08:26:47 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="234" started-at="2021-08-02T22:11:52 CST" finished-at="2021-08-02T22:11:52 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="225" started-at="2021-08-20T08:26:47 CST" finished-at="2021-08-20T08:26:48 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="242" started-at="2021-08-02T22:11:52 CST" finished-at="2021-08-02T22:11:52 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="488" started-at="2021-08-20T08:26:48 CST" finished-at="2021-08-20T08:26:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="233" started-at="2021-08-20T08:26:48 CST" finished-at="2021-08-20T08:26:48 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetAllPostsUsingInvalidLogin()[pri:0, instance:PostsTests@1f36e637]" name="testGetAllPostsUsingInvalidLogin" duration-ms="218" started-at="2021-08-02T22:11:52 CST" description="Test to get all posts using invalid user." finished-at="2021-08-02T22:11:52 CST">
+        <test-method status="PASS" signature="testGetAllPostsUsingInvalidLogin()[pri:0, instance:PostsTests@1f36e637]" name="testGetAllPostsUsingInvalidLogin" duration-ms="209" started-at="2021-08-20T08:26:48 CST" description="Test to get all posts using invalid user." finished-at="2021-08-20T08:26:49 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllPostsUsingInvalidLogin -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="242" started-at="2021-08-02T22:11:52 CST" finished-at="2021-08-02T22:11:53 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="244" started-at="2021-08-20T08:26:49 CST" finished-at="2021-08-20T08:26:49 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="396" started-at="2021-08-02T22:11:53 CST" finished-at="2021-08-02T22:11:53 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="490" started-at="2021-08-20T08:26:49 CST" finished-at="2021-08-20T08:26:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="212" started-at="2021-08-20T08:26:49 CST" finished-at="2021-08-20T08:26:50 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="239" started-at="2021-08-02T22:11:53 CST" finished-at="2021-08-02T22:11:53 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="253" started-at="2021-08-20T08:26:50 CST" finished-at="2021-08-20T08:26:50 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="268" started-at="2021-08-02T22:11:53 CST" finished-at="2021-08-02T22:11:53 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="438" started-at="2021-08-20T08:26:50 CST" finished-at="2021-08-20T08:26:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="278" started-at="2021-08-20T08:26:50 CST" finished-at="2021-08-20T08:26:51 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetAnInvalidPost()[pri:0, instance:PostsTests@1f36e637]" name="testGetAnInvalidPost" duration-ms="268" started-at="2021-08-02T22:11:53 CST" description="Test to retrieve an invalid post." finished-at="2021-08-02T22:11:54 CST">
+        <test-method status="PASS" signature="testGetAnInvalidPost()[pri:0, instance:PostsTests@1f36e637]" name="testGetAnInvalidPost" duration-ms="216" started-at="2021-08-20T08:26:51 CST" description="Test to retrieve an invalid post." finished-at="2021-08-20T08:26:51 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAnInvalidPost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="220" started-at="2021-08-02T22:11:54 CST" finished-at="2021-08-02T22:11:54 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="217" started-at="2021-08-20T08:26:51 CST" finished-at="2021-08-20T08:26:51 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="237" started-at="2021-08-02T22:11:54 CST" finished-at="2021-08-02T22:11:54 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="412" started-at="2021-08-20T08:26:51 CST" finished-at="2021-08-20T08:26:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="201" started-at="2021-08-20T08:26:51 CST" finished-at="2021-08-20T08:26:52 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="249" started-at="2021-08-02T22:11:54 CST" finished-at="2021-08-02T22:11:54 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="235" started-at="2021-08-20T08:26:52 CST" finished-at="2021-08-20T08:26:52 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="277" started-at="2021-08-02T22:11:54 CST" finished-at="2021-08-02T22:11:55 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="485" started-at="2021-08-20T08:26:52 CST" finished-at="2021-08-20T08:26:52 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="249" started-at="2021-08-20T08:26:52 CST" finished-at="2021-08-20T08:26:53 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testUpdateInvalidPost()[pri:0, instance:PostsTests@1f36e637]" name="testUpdateInvalidPost" duration-ms="236" started-at="2021-08-02T22:11:55 CST" description="Test that updates an invalid post." finished-at="2021-08-02T22:11:55 CST">
+        <test-method status="PASS" signature="testUpdateInvalidPost()[pri:0, instance:PostsTests@1f36e637]" name="testUpdateInvalidPost" duration-ms="226" started-at="2021-08-20T08:26:53 CST" description="Test that updates an invalid post." finished-at="2021-08-20T08:26:53 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateInvalidPost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="343" started-at="2021-08-02T22:11:55 CST" finished-at="2021-08-02T22:11:55 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="243" started-at="2021-08-20T08:26:53 CST" finished-at="2021-08-20T08:26:53 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="234" started-at="2021-08-02T22:11:55 CST" finished-at="2021-08-02T22:11:55 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="449" started-at="2021-08-20T08:26:53 CST" finished-at="2021-08-20T08:26:53 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="242" started-at="2021-08-20T08:26:53 CST" finished-at="2021-08-20T08:26:54 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="237" started-at="2021-08-02T22:11:55 CST" finished-at="2021-08-02T22:11:56 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:PostsTests@1f36e637]" name="createArticle" is-config="true" duration-ms="223" started-at="2021-08-20T08:26:54 CST" finished-at="2021-08-20T08:26:54 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="244" started-at="2021-08-02T22:11:56 CST" finished-at="2021-08-02T22:11:56 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:PostsTests@1f36e637]" name="createComment" is-config="true" duration-ms="455" started-at="2021-08-20T08:26:54 CST" finished-at="2021-08-20T08:26:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostsTests@1f36e637]" name="createPost" is-config="true" duration-ms="232" started-at="2021-08-20T08:26:54 CST" finished-at="2021-08-20T08:26:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testUpdatePost()[pri:0, instance:PostsTests@1f36e637]" name="testUpdatePost" duration-ms="267" started-at="2021-08-02T22:11:56 CST" description="Test that updates post by id." finished-at="2021-08-02T22:11:56 CST">
+        <test-method status="PASS" signature="testUpdatePost()[pri:0, instance:PostsTests@1f36e637]" name="testUpdatePost" duration-ms="342" started-at="2021-08-20T08:26:55 CST" description="Test that updates post by id." finished-at="2021-08-20T08:26:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdatePost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="242" started-at="2021-08-02T22:11:56 CST" finished-at="2021-08-02T22:11:56 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:PostsTests@1f36e637]" name="deleteArticle" is-config="true" duration-ms="230" started-at="2021-08-20T08:26:55 CST" finished-at="2021-08-20T08:26:55 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="267" started-at="2021-08-02T22:11:56 CST" finished-at="2021-08-02T22:11:57 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:PostsTests@1f36e637]" name="deleteComment" is-config="true" duration-ms="458" started-at="2021-08-20T08:26:55 CST" finished-at="2021-08-20T08:26:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:PostsTests@1f36e637]" name="deletePost" is-config="true" duration-ms="237" started-at="2021-08-20T08:26:56 CST" finished-at="2021-08-20T08:26:56 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
       </class> <!-- PostsTests -->
     </test> <!-- PostsTests -->
-    <test name="CommentsTests" duration-ms="16282" started-at="2021-08-02T22:11:57 CST" finished-at="2021-08-02T22:12:13 CST">
+    <test name="CommentsTests" duration-ms="25141" started-at="2021-08-20T08:26:56 CST" finished-at="2021-08-20T08:27:21 CST">
       <class name="CommentsTests">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:CommentsTests@4e7dc304]" name="setup" is-config="true" duration-ms="559" started-at="2021-08-02T22:11:40 CST" finished-at="2021-08-02T22:11:41 CST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:CommentsTests@4e7dc304]" name="setup" is-config="true" duration-ms="570" started-at="2021-08-20T08:26:30 CST" finished-at="2021-08-20T08:26:31 CST">
           <params>
             <param index="0">
               <value>
@@ -235,203 +315,283 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="258" started-at="2021-08-02T22:11:57 CST" finished-at="2021-08-02T22:11:57 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="236" started-at="2021-08-20T08:26:56 CST" finished-at="2021-08-20T08:26:56 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="258" started-at="2021-08-02T22:11:57 CST" finished-at="2021-08-02T22:11:57 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="492" started-at="2021-08-20T08:26:56 CST" finished-at="2021-08-20T08:26:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="212" started-at="2021-08-20T08:26:57 CST" finished-at="2021-08-20T08:26:57 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testCreateComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testCreateComment" duration-ms="232" started-at="2021-08-02T22:11:57 CST" description="Test that creates a comment in a post" finished-at="2021-08-02T22:11:58 CST">
+        <test-method status="PASS" signature="testCreateComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testCreateComment" duration-ms="224" started-at="2021-08-20T08:26:57 CST" description="Test that creates a comment in a post" finished-at="2021-08-20T08:26:57 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateComment -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="259" started-at="2021-08-02T22:11:58 CST" finished-at="2021-08-02T22:11:58 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="210" started-at="2021-08-20T08:26:57 CST" finished-at="2021-08-20T08:26:57 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="271" started-at="2021-08-02T22:11:58 CST" finished-at="2021-08-02T22:11:58 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="413" started-at="2021-08-20T08:26:57 CST" finished-at="2021-08-20T08:26:58 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="212" started-at="2021-08-20T08:26:58 CST" finished-at="2021-08-20T08:26:58 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="241" started-at="2021-08-02T22:11:58 CST" finished-at="2021-08-02T22:11:58 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="217" started-at="2021-08-20T08:26:58 CST" finished-at="2021-08-20T08:26:58 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="231" started-at="2021-08-02T22:11:58 CST" finished-at="2021-08-02T22:11:59 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="472" started-at="2021-08-20T08:26:58 CST" finished-at="2021-08-20T08:26:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="254" started-at="2021-08-20T08:26:59 CST" finished-at="2021-08-20T08:26:59 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testCreateCommentOnInvalidPost()[pri:0, instance:CommentsTests@4e7dc304]" name="testCreateCommentOnInvalidPost" duration-ms="253" started-at="2021-08-02T22:11:59 CST" description="Test that creates a comment in an invalid post" finished-at="2021-08-02T22:11:59 CST">
+        <test-method status="PASS" signature="testCreateCommentOnInvalidPost()[pri:0, instance:CommentsTests@4e7dc304]" name="testCreateCommentOnInvalidPost" duration-ms="232" started-at="2021-08-20T08:26:59 CST" description="Test that creates a comment in an invalid post" finished-at="2021-08-20T08:26:59 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCommentOnInvalidPost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="262" started-at="2021-08-02T22:11:59 CST" finished-at="2021-08-02T22:11:59 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="199" started-at="2021-08-20T08:26:59 CST" finished-at="2021-08-20T08:26:59 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="217" started-at="2021-08-02T22:11:59 CST" finished-at="2021-08-02T22:11:59 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="556" started-at="2021-08-20T08:26:59 CST" finished-at="2021-08-20T08:27:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="211" started-at="2021-08-20T08:27:00 CST" finished-at="2021-08-20T08:27:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="258" started-at="2021-08-02T22:11:59 CST" finished-at="2021-08-02T22:12:00 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="219" started-at="2021-08-20T08:27:00 CST" finished-at="2021-08-20T08:27:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="264" started-at="2021-08-02T22:12:00 CST" finished-at="2021-08-02T22:12:00 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="477" started-at="2021-08-20T08:27:00 CST" finished-at="2021-08-20T08:27:01 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="269" started-at="2021-08-20T08:27:01 CST" finished-at="2021-08-20T08:27:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testDeleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testDeleteComment" duration-ms="763" started-at="2021-08-02T22:12:00 CST" description="Test that deletes a comment" finished-at="2021-08-02T22:12:01 CST">
+        <test-method status="PASS" signature="testDeleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testDeleteComment" duration-ms="804" started-at="2021-08-20T08:27:01 CST" description="Test that deletes a comment" finished-at="2021-08-20T08:27:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteComment -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="245" started-at="2021-08-02T22:12:01 CST" finished-at="2021-08-02T22:12:01 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="313" started-at="2021-08-20T08:27:02 CST" finished-at="2021-08-20T08:27:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="220" started-at="2021-08-02T22:12:01 CST" finished-at="2021-08-02T22:12:01 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="490" started-at="2021-08-20T08:27:02 CST" finished-at="2021-08-20T08:27:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="271" started-at="2021-08-20T08:27:03 CST" finished-at="2021-08-20T08:27:03 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="215" started-at="2021-08-02T22:12:01 CST" finished-at="2021-08-02T22:12:01 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="491" started-at="2021-08-20T08:27:03 CST" finished-at="2021-08-20T08:27:03 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="239" started-at="2021-08-02T22:12:01 CST" finished-at="2021-08-02T22:12:02 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="478" started-at="2021-08-20T08:27:03 CST" finished-at="2021-08-20T08:27:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="228" started-at="2021-08-20T08:27:04 CST" finished-at="2021-08-20T08:27:04 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testDeleteInvalidComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testDeleteInvalidComment" duration-ms="216" started-at="2021-08-02T22:12:02 CST" description="Test that deletes an invalid comment" finished-at="2021-08-02T22:12:02 CST">
+        <test-method status="PASS" signature="testDeleteInvalidComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testDeleteInvalidComment" duration-ms="217" started-at="2021-08-20T08:27:04 CST" description="Test that deletes an invalid comment" finished-at="2021-08-20T08:27:04 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteInvalidComment -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="228" started-at="2021-08-02T22:12:02 CST" finished-at="2021-08-02T22:12:02 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="217" started-at="2021-08-20T08:27:04 CST" finished-at="2021-08-20T08:27:05 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="197" started-at="2021-08-02T22:12:02 CST" finished-at="2021-08-02T22:12:02 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="416" started-at="2021-08-20T08:27:05 CST" finished-at="2021-08-20T08:27:05 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="221" started-at="2021-08-20T08:27:05 CST" finished-at="2021-08-20T08:27:05 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="242" started-at="2021-08-02T22:12:02 CST" finished-at="2021-08-02T22:12:02 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="211" started-at="2021-08-20T08:27:05 CST" finished-at="2021-08-20T08:27:05 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="240" started-at="2021-08-02T22:12:02 CST" finished-at="2021-08-02T22:12:03 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="445" started-at="2021-08-20T08:27:05 CST" finished-at="2021-08-20T08:27:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="229" started-at="2021-08-20T08:27:06 CST" finished-at="2021-08-20T08:27:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetACommentUsingInvalidId()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetACommentUsingInvalidId" duration-ms="284" started-at="2021-08-02T22:12:03 CST" description="Test to retrieve a comment using an invalid id" finished-at="2021-08-02T22:12:03 CST">
+        <test-method status="PASS" signature="testGetACommentUsingInvalidId()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetACommentUsingInvalidId" duration-ms="213" started-at="2021-08-20T08:27:06 CST" description="Test to retrieve a comment using an invalid id" finished-at="2021-08-20T08:27:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetACommentUsingInvalidId -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="188" started-at="2021-08-02T22:12:03 CST" finished-at="2021-08-02T22:12:03 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="203" started-at="2021-08-20T08:27:06 CST" finished-at="2021-08-20T08:27:06 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="288" started-at="2021-08-02T22:12:03 CST" finished-at="2021-08-02T22:12:03 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="436" started-at="2021-08-20T08:27:06 CST" finished-at="2021-08-20T08:27:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="217" started-at="2021-08-20T08:27:07 CST" finished-at="2021-08-20T08:27:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="260" started-at="2021-08-02T22:12:03 CST" finished-at="2021-08-02T22:12:04 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="221" started-at="2021-08-20T08:27:07 CST" finished-at="2021-08-20T08:27:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="230" started-at="2021-08-02T22:12:04 CST" finished-at="2021-08-02T22:12:04 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="408" started-at="2021-08-20T08:27:07 CST" finished-at="2021-08-20T08:27:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="216" started-at="2021-08-20T08:27:08 CST" finished-at="2021-08-20T08:27:08 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetACommentbyId()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetACommentbyId" duration-ms="1217" started-at="2021-08-02T22:12:04 CST" description="Test to retrieve a comment by Id" finished-at="2021-08-02T22:12:05 CST">
+        <test-method status="PASS" signature="testGetACommentbyId()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetACommentbyId" duration-ms="1106" started-at="2021-08-20T08:27:08 CST" description="Test to retrieve a comment by Id" finished-at="2021-08-20T08:27:09 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetACommentbyId -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="241" started-at="2021-08-02T22:12:05 CST" finished-at="2021-08-02T22:12:05 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="204" started-at="2021-08-20T08:27:09 CST" finished-at="2021-08-20T08:27:09 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="244" started-at="2021-08-02T22:12:05 CST" finished-at="2021-08-02T22:12:06 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="496" started-at="2021-08-20T08:27:09 CST" finished-at="2021-08-20T08:27:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="228" started-at="2021-08-20T08:27:10 CST" finished-at="2021-08-20T08:27:10 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="304" started-at="2021-08-02T22:12:06 CST" finished-at="2021-08-02T22:12:06 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="222" started-at="2021-08-20T08:27:10 CST" finished-at="2021-08-20T08:27:10 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="230" started-at="2021-08-02T22:12:06 CST" finished-at="2021-08-02T22:12:06 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="440" started-at="2021-08-20T08:27:10 CST" finished-at="2021-08-20T08:27:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="235" started-at="2021-08-20T08:27:11 CST" finished-at="2021-08-20T08:27:11 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetAllComments()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetAllComments" duration-ms="1184" started-at="2021-08-02T22:12:06 CST" description="Test that retrieve all comments in a post" finished-at="2021-08-02T22:12:07 CST">
+        <test-method status="PASS" signature="testGetAllComments()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetAllComments" duration-ms="1097" started-at="2021-08-20T08:27:11 CST" description="Test that retrieve all comments in a post" finished-at="2021-08-20T08:27:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllComments -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="215" started-at="2021-08-02T22:12:07 CST" finished-at="2021-08-02T22:12:08 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="206" started-at="2021-08-20T08:27:12 CST" finished-at="2021-08-20T08:27:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="216" started-at="2021-08-02T22:12:08 CST" finished-at="2021-08-02T22:12:08 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="411" started-at="2021-08-20T08:27:12 CST" finished-at="2021-08-20T08:27:13 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="230" started-at="2021-08-20T08:27:13 CST" finished-at="2021-08-20T08:27:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="205" started-at="2021-08-02T22:12:08 CST" finished-at="2021-08-02T22:12:08 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="260" started-at="2021-08-20T08:27:13 CST" finished-at="2021-08-20T08:27:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="291" started-at="2021-08-02T22:12:08 CST" finished-at="2021-08-02T22:12:08 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="505" started-at="2021-08-20T08:27:13 CST" finished-at="2021-08-20T08:27:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="251" started-at="2021-08-20T08:27:14 CST" finished-at="2021-08-20T08:27:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testGetAllCommentsUsingInvalidPost()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetAllCommentsUsingInvalidPost" duration-ms="243" started-at="2021-08-02T22:12:08 CST" description="Test to get all comments using invalid user" finished-at="2021-08-02T22:12:08 CST">
+        <test-method status="PASS" signature="testGetAllCommentsUsingInvalidPost()[pri:0, instance:CommentsTests@4e7dc304]" name="testGetAllCommentsUsingInvalidPost" duration-ms="211" started-at="2021-08-20T08:27:14 CST" description="Test to get all comments using invalid user" finished-at="2021-08-20T08:27:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllCommentsUsingInvalidPost -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="213" started-at="2021-08-02T22:12:08 CST" finished-at="2021-08-02T22:12:09 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="246" started-at="2021-08-20T08:27:14 CST" finished-at="2021-08-20T08:27:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="226" started-at="2021-08-02T22:12:09 CST" finished-at="2021-08-02T22:12:09 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="536" started-at="2021-08-20T08:27:14 CST" finished-at="2021-08-20T08:27:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="210" started-at="2021-08-20T08:27:15 CST" finished-at="2021-08-20T08:27:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="268" started-at="2021-08-02T22:12:09 CST" finished-at="2021-08-02T22:12:09 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="227" started-at="2021-08-20T08:27:15 CST" finished-at="2021-08-20T08:27:15 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="204" started-at="2021-08-02T22:12:09 CST" finished-at="2021-08-02T22:12:09 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="454" started-at="2021-08-20T08:27:15 CST" finished-at="2021-08-20T08:27:16 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="237" started-at="2021-08-20T08:27:16 CST" finished-at="2021-08-20T08:27:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testUpdateCommentById()[pri:0, instance:CommentsTests@4e7dc304]" name="testUpdateCommentById" duration-ms="1215" started-at="2021-08-02T22:12:09 CST" description="Test that updates a comment by Id" finished-at="2021-08-02T22:12:11 CST">
+        <test-method status="PASS" signature="testUpdateCommentById()[pri:0, instance:CommentsTests@4e7dc304]" name="testUpdateCommentById" duration-ms="1233" started-at="2021-08-20T08:27:16 CST" description="Test that updates a comment by Id" finished-at="2021-08-20T08:27:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCommentById -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="195" started-at="2021-08-02T22:12:11 CST" finished-at="2021-08-02T22:12:11 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="229" started-at="2021-08-20T08:27:17 CST" finished-at="2021-08-20T08:27:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="242" started-at="2021-08-02T22:12:11 CST" finished-at="2021-08-02T22:12:11 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="407" started-at="2021-08-20T08:27:17 CST" finished-at="2021-08-20T08:27:18 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="213" started-at="2021-08-20T08:27:18 CST" finished-at="2021-08-20T08:27:18 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="224" started-at="2021-08-02T22:12:11 CST" finished-at="2021-08-02T22:12:11 CST">
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="createArticle" is-config="true" duration-ms="223" started-at="2021-08-20T08:27:18 CST" finished-at="2021-08-20T08:27:18 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticle -->
-        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="246" started-at="2021-08-02T22:12:11 CST" finished-at="2021-08-02T22:12:12 CST">
+        <test-method status="PASS" signature="createComment()[pri:0, instance:CommentsTests@4e7dc304]" name="createComment" is-config="true" duration-ms="490" started-at="2021-08-20T08:27:18 CST" finished-at="2021-08-20T08:27:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComment -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:CommentsTests@4e7dc304]" name="createPost" is-config="true" duration-ms="226" started-at="2021-08-20T08:27:19 CST" finished-at="2021-08-20T08:27:19 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method status="PASS" signature="testUpdateInvalidComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testUpdateInvalidComment" duration-ms="1150" started-at="2021-08-02T22:12:12 CST" description="Test that udpates an invalid comment" finished-at="2021-08-02T22:12:13 CST">
+        <test-method status="PASS" signature="testUpdateInvalidComment()[pri:0, instance:CommentsTests@4e7dc304]" name="testUpdateInvalidComment" duration-ms="1090" started-at="2021-08-20T08:27:19 CST" description="Test that udpates an invalid comment" finished-at="2021-08-20T08:27:20 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateInvalidComment -->
-        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="222" started-at="2021-08-02T22:12:13 CST" finished-at="2021-08-02T22:12:13 CST">
+        <test-method status="PASS" signature="deleteArticle()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteArticle" is-config="true" duration-ms="282" started-at="2021-08-20T08:27:20 CST" finished-at="2021-08-20T08:27:20 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticle -->
-        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="212" started-at="2021-08-02T22:12:13 CST" finished-at="2021-08-02T22:12:13 CST">
+        <test-method status="PASS" signature="deleteComment()[pri:0, instance:CommentsTests@4e7dc304]" name="deleteComment" is-config="true" duration-ms="472" started-at="2021-08-20T08:27:20 CST" finished-at="2021-08-20T08:27:21 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComment -->
+        <test-method status="PASS" signature="deletePost()[pri:0, instance:CommentsTests@4e7dc304]" name="deletePost" is-config="true" duration-ms="202" started-at="2021-08-20T08:27:21 CST" finished-at="2021-08-20T08:27:21 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->

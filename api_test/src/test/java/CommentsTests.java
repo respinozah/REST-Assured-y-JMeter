@@ -43,8 +43,6 @@ public class CommentsTests extends Base{
     public void testGetAllComments(){
         createComment();
 
-        //System.out.println("En la prueba tengo el comment id " + commentId + " del post " + postId);
-
         given()
             .spec(RequestSpecifications.useBasicAuthentication())
         .when()
@@ -69,11 +67,9 @@ public class CommentsTests extends Base{
     }
 
     //v1.GET("/comment/:postid/:id"
-    @Test(description = "Test to retrieve a comment by Id", groups = "useComment")
+    @Test(description = "Test to retrieve a comment by Id")
     public void testGetACommentbyId(){
-        //createComment();
-
-        System.out.println("In the test, the used post is " + postId);
+        createComment();
 
         given()
             .spec(RequestSpecifications.useBasicAuthentication())
@@ -84,7 +80,7 @@ public class CommentsTests extends Base{
             .body("data.id", Matchers.equalTo(commentId))
             .body("data.post_id", Matchers.equalTo(String.valueOf(postId)));
 
-        //deleteComment();
+        deleteComment();
     }
 
     @Test(description = "Test to retrieve a comment using an invalid id", groups = "usePost")

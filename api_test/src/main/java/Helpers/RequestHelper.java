@@ -79,8 +79,6 @@ public class RequestHelper {
 
         JsonPath jsonPath = response.jsonPath();
 
-        System.out.println("Comment created in createRandomCommentAndGetId using post: " + postId);
-
         return jsonPath.get("id");
     }
 
